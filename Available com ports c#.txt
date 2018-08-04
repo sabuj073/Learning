@@ -1,0 +1,5 @@
+ void get_port()
+        {
+            String[] ports = SerialPort.GetPortNames();
+            comboBox1.Items.AddRange(ports);
+        }
